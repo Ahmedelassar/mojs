@@ -10,6 +10,7 @@ module.exports = () => ({
     libraryExport: 'default',
     libraryTarget: 'umd',
     umdNamedDefine: true,
+    globalObject: 'this',
   },
   resolve: {
     extensions: [
